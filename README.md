@@ -1,9 +1,24 @@
 # number_trivia
 
 A minimal Flutter App that displays interesting number trivia given by the user or any random number .
+Along with the number trivia fact , it also displays a funny random meme xd !
+
+## API Used :
+<ol type="1">
+
+  <a href = "http://numbersapi.com/#42">Number Api</a>
+  <a href = "https://developers.giphy.com/">Giphy Api</a>
+  
+ </ol>
+
+
 
 
 ## Screenshots
+![Image 1](https://github.com/parthpanchal123/Number_trivia_flutter/blob/master/assets/images/ss1.png)
+</hr>
+
+![Image 2](https://github.com/parthpanchal123/Number_trivia_flutter/blob/master/assets/images/ss2.png)
 
 
 ## Getting Started
