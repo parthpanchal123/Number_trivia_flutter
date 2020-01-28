@@ -1,6 +1,10 @@
 # number_trivia
 
-A new Flutter application.
+A minimal Flutter App that displays interesting number trivia given by the user or any random number .
+
+
+## Screenshots
+
 
 ## Getting Started
 
