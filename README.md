@@ -1,6 +1,6 @@
 # number_trivia
 
-You can try the app here : https://drive.google.com/drive/folders/1ociAcPfLiM-pb1U801j4FY9iLpObwoeV?usp=sharing
+You can try the app here : https://drive.google.com/drive/folders/1A21kUaABX5gl8Y7NwVUlKFQAQ7BEhaT4
 
 A minimal Flutter App that displays interesting number trivia given by the user or any random number .
 Along with the number trivia fact , it also displays a funny random meme xd !
