@@ -29,9 +29,10 @@ class _MyTriviaAppState extends State<MyTriviaApp> {
 
   Future _fetchJson(BuildContext context) async {
     num = query_val == null ? Random().nextInt(100) : int.parse(query_val);
-    final client = GiphyClient(apiKey: 'YOUR-API-KEY-GOES-HERE');
-    var url = 'http://numbersapi.com/${num}?json';
+    final client = GiphyClient(apiKey: 'API_KEY');
+    var url = 'http://numbersapi.com/$num?json';
     final a = await client.random(tag: 'amazed');
+    print(a);
     final gif_id = a.id;
     var json_data = await http.get(url);
     var trivia_data = jsonDecode(json_data.body);
@@ -174,9 +175,11 @@ class _MyTriviaAppState extends State<MyTriviaApp> {
               height: 50.0,
               child: ClipRRect(
                 borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                child: RaisedButton(
-                  color: Color(0xFF0C35B1),
-                  splashColor: Color(0xFF000051),
+                child: ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor:
+                        MaterialStateProperty.all(Color(0xFF0C35B1)),
+                  ),
                   onPressed: () {
                     if (query_val != null) {
                       setState(() {
